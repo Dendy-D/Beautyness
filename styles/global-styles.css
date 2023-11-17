@@ -1,0 +1,58 @@
+body {
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Manrope', sans-serif;
+}
+
+:root {
+  --grey-green-dark: rgba(92, 134, 146, 1);
+  --grey-green-light: rgba(122, 156, 165, 1);
+  --dark-grey: rgba(17, 30, 34, 1);
+  --white: rgba(255, 255, 255, 1);
+  
+  --font-color-dark-grey: rgba(20, 20, 20, 1);
+  --font-color-light-grey-: rgba(85, 85, 85, 1);
+
+  --light-blue-background: rgba(235, 243, 245, 1);
+
+
+  --desctop-padding-top-and-bottom: 150px;
+  --desctop-padding-left-and-right: 360px;
+}
+
+.btn {
+  padding: 24px 36px;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 2px solid #5C8692;
+  /* display: flex;
+  align-items: center;
+  gap: 5px; */
+}
+
+.btn-filled {
+  color: var(--white);
+  background-color: var(--grey-green-dark);
+}
+
+.btn-filled img {
+  width: 14px;
+  height: 14px;
+}
+
+.btn-filled:hover {
+  background-color: transparent;
+  color: var(--font-color-dark-grey);
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.btn-empty {
+  color: var(--font-color-dark-grey);
+}
+
+.btn-empty:hover {
+  color: var(--white);
+  background-color: var(--grey-green-dark);
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
