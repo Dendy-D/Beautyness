@@ -1,5 +1,439 @@
-header {
-
+main > div {
+  padding: var(--desctop-padding-top-and-bottom)
+    var(--desctop-padding-left-and-right);
 }
 
+.section-welcome {
+  background: url(./assets/images/background-dark-green.png);
+  position: relative;
+  padding: 0;
+  height: 930px;
+  display: flex;
+}
 
+.section-welcome-wrapper {
+  background-color: var(--light-blue-background);
+  width: 50vw;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.section-welcome-reservation-image_person {
+  box-shadow: 1px 0 18px rgba(0, 0, 0, 0.2);
+}
+
+.section-welcome-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-right: 150px;
+  max-width: 510px;
+}
+
+.section-welcome-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--grey-green-dark);
+  margin-bottom: 7px;
+  letter-spacing: 2px;
+}
+
+.section-welcome-description {
+  color: var(--font-color-light-grey);
+  margin-top: 24px;
+  margin-bottom: 34px;
+  font-family: Manrope;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.section-welcome-rectangle {
+  height: 660px;
+  width: 1120px; /*& изменил ширину */
+  border: 10px solid var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
+}
+
+.section-welcome-reservation-image {
+  position: relative;
+  z-index: 2;
+  padding: 190px 0 0 0;
+  right: 70px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.read-about-us-section-flexbox {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  font-size: 18px;
+}
+
+.read-about-us-section-spa-title {
+  padding: 0 0 0 0;
+}
+
+.read-about-us-section-hair-title {
+  padding: 0 0 0 0;
+}
+
+.read-about-us-section-body-title {
+  padding: 0 0 0 0;
+}
+
+.read-about-us-section-spa-text {
+  padding: 0 0 20px 0;
+  color: var(--font-color-light-grey);
+}
+
+.read-about-us-section-hair-text {
+  padding: 0 0 20px 0;
+  color: var(--font-color-light-grey);
+}
+
+.read-about-us-section-body-text {
+  padding: 0 0 20px 0;
+  color: var(--font-color-light-grey);
+}
+
+.about-us-section {
+  background-color: var(--light-blue-background);
+}
+
+.about-us-section-flexbox {
+  padding: 150px 340px;
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+}
+
+.about-us-section-content {
+  /* padding: 15px; */
+  width: 530px;
+  height: 570px;
+}
+
+.about-us-section-content-subtitle {
+  padding: 15px 0 9px 0;
+  font-size: 15px;
+  color: var(--grey-green-dark);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.about-us-section-content-title {
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: -0.7px;
+  padding-bottom: 16px;
+}
+
+.about-us-section-content-description {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--font-color-light-grey);
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.about-us-section-content-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-us-section-content-icons-beaty_experts,
+.about-us-section-content-icons-hundred_nature,
+.about-us-section-content-icons-quality_services {
+  padding: 21px 11px;
+  border: 1px solid rgba(30, 44, 48, 1);
+  width: 120px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 22px;
+  color: var(--font-color-dark-grey);
+}
+
+.about-us-section-image-background {
+  width: 500px;
+  height: 580px;
+  background-color: rgba(132, 168, 178, 1);
+  position: relative;
+}
+
+.about-us-section-image_person {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  box-shadow: 1px 0 18px rgba(0, 0, 0, 0.2);
+}
+
+.services-section {
+  width: 500px;
+  height: 500px;
+}
+
+.testimonials-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 360px;
+  background-color: var(--light-blue-background);
+}
+
+.testimonials-section-content-reviews {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  gap: 36px;
+}
+
+.testimonials-section-content-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-bottom: 40px;
+}
+
+.testimonials-section-content-subtitle {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+  color: var(--grey-green-dark);
+}
+
+.testimonials-section-content-title {
+  text-align: center;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+  color: var(--font-color-dark-grey);
+}
+
+.testimonials-section-content-reviews_person1 {
+  background-color: rgba(30, 44, 48, 1);
+  height: 130px;
+  display: flex;
+  align-items: center;
+  padding: 26px 51px;
+}
+
+.testimonials-section-content-reviews_content1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  background-color: var(--white);
+  padding: 44px 44px;
+}
+
+.testimonials-icon1 {
+  justify-self: end;
+  padding-left: 170px;
+}
+
+.person1_review {
+  flex-shrink: 0;
+  padding-left: 20px;
+}
+
+.testimonials-section-content-reviews_person2 {
+  background-color: rgba(30, 44, 48, 1);
+  height: 130px;
+  display: flex;
+  align-items: center;
+  padding: 26px 51px;
+}
+
+.testimonials-section-content-reviews_content2 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  background-color: var(--white);
+  padding: 44px 44px;
+}
+
+.testimonials-icon2 {
+  justify-self: end;
+  padding-left: 200px;
+}
+
+.person2_review {
+  flex-shrink: 0;
+  padding-left: 20px;
+}
+
+.h3review {
+  color: var(--white);
+}
+
+.country_review {
+  color: var(--white);
+}
+
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 150px  360px;
+}
+
+.benefits-section-containers-flex{
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  grid-template-rows: 200px 200px 200px;
+  grid-column-gap: 110px;
+  grid-row-gap: 40px;
+}
+
+.benefits-section-containers {
+  width: 330px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.benefits-section-h2 {
+color: var(--font-color-dark-grey);
+font-family: Playfair Display;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+
+.benefits-section-icon {
+  width: 84px;
+  height: 84px;
+}
+
+.benefits-section-content-subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+  color: var(--grey-green-dark);
+  text-align: center;
+}
+
+.benefits-section-content-title {
+  Font-family: 'Playfair Display', sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+  text-align: center;
+  }
+
+.benefits-section-text {
+  color: var(--font-color-light-grey);
+}
+
+.flat-discount-services {
+  background-color: var(--light-blue-background);
+  /* padding: 150px 360px; */
+}
+
+.flat-discount-services-content { 
+  display: flex;
+  flex-direction: column;
+} 
+
+.flat-discount-services-content-subtitle {
+  color: var(--grey-green-dark);
+}
+
+.flat-discount-services-h2 {
+  color: var(--font-color-dark-grey);
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+}
+
+.flat-discount-services-description {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.flat-discount-services-content-contact {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.flat-discount-services-sale-icon {
+  background-color: rgba(30, 44, 48, 1);
+  height: 120px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 23px;
+}
+
+.flat-discount-services-content-flex {
+  display: flex;
+}
+.flat-discount-services-content-contact2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flat-discount-services-flex {
+  display: flex;
+}
+
+.flat-discount-services-content-sale {
+  display: flex;
+}

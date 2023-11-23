@@ -1,22 +1,38 @@
 body {
-  /* font-family: 'Playfair Display', serif; */
   font-family: 'Manrope', sans-serif;
 }
 
 :root {
-  --grey-green-dark: rgba(92, 134, 146, 1);
   --grey-green-light: rgba(122, 156, 165, 1);
   --dark-grey: rgba(17, 30, 34, 1);
   --white: rgba(255, 255, 255, 1);
   
+  --grey-green-dark: rgba(92, 134, 146, 1);
   --font-color-dark-grey: rgba(20, 20, 20, 1);
-  --font-color-light-grey-: rgba(85, 85, 85, 1);
+  --font-color-light-grey: rgba(85, 85, 85, 1);
 
   --light-blue-background: rgba(235, 243, 245, 1);
 
 
   --desctop-padding-top-and-bottom: 150px;
   --desctop-padding-left-and-right: 360px;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--font-color-dark-grey);
+  letter-spacing: -1%;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+h2, h3 {
+  font-size: 45px;
+  /* line-height: ; */
+}
+
+.header-menu-item-pages {
+  cursor: pointer;
 }
 
 .btn {
@@ -55,4 +71,74 @@ body {
   color: var(--white);
   background-color: var(--grey-green-dark);
   transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+
+.btn-reservation {
+  color: var(--white);
+  background-color: var(--grey-green-dark);
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  letter-spacing: 1px;
+  padding: 17px 28px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+
+
+
+.header-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-menu-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 17px;
+  font-weight: 600; 
+
+}
+
+ 
+.header-menu li:hover {
+  color: var(--grey-green-dark);
+  transition: color 0.2s linear;
+}  
+
+.header-menu-item-pages {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.call-us {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
 }
