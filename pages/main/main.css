@@ -56,7 +56,7 @@ main > div {
 
 .section-welcome-rectangle {
   height: 660px;
-  width: 1120px; /*& изменил ширину */
+  width: 1120px;
   border: 10px solid var(--white);
   position: absolute;
   top: 50%;
@@ -65,7 +65,6 @@ main > div {
   display: flex;
   justify-content: end;
   align-items: center;
-  
 }
 
 .section-welcome-reservation-image {
@@ -118,14 +117,14 @@ h2 {
 }
 
 .about-us-section-flexbox {
-  padding: 150px 340px;
+  /* padding: 150px 340px; */
   display: flex;
   justify-content: center;
   gap: 170px;
 }
 
 .about-us-section-content {
-  /* padding: 15px; */
+  padding: 15px;
   width: 530px;
   height: 570px;
 }
@@ -191,17 +190,12 @@ h3 {
   box-shadow: 1px 0 18px rgba(0, 0, 0, 0.2);
 }
 
-.services-section {
-  width: 500px;
-  height: 500px;
-}
-
 .testimonials-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 150px 360px;
+  /* padding: 150px 360px; */
   background-color: var(--light-blue-background);
 }
 
@@ -309,10 +303,10 @@ h3 {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 150px  360px;
+  /* padding: 150px  360px; */
 }
 
-.benefits-section-containers-flex{
+.benefits-section-containers-flex {
   display: grid;
   grid-template-columns: 330px 330px 330px;
   grid-template-rows: 200px 200px 200px;
@@ -329,12 +323,12 @@ h3 {
 }
 
 .benefits-section-h2 {
-color: var(--font-color-dark-grey);
-font-family: Playfair Display;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%;
+  color: var(--font-color-dark-grey);
+  font-family: Playfair Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .benefits-section-icon {
@@ -351,17 +345,18 @@ line-height: 120%;
   letter-spacing: 1.5px;
   color: var(--grey-green-dark);
   text-align: center;
+  padding-bottom: 9px;
 }
 
 .benefits-section-content-title {
-  Font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 45px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
   letter-spacing: -0.45px;
   text-align: center;
-  }
+}
 
 .benefits-section-text {
   color: var(--font-color-light-grey);
@@ -369,13 +364,18 @@ line-height: 120%;
 
 .flat-discount-services {
   background-color: var(--light-blue-background);
-  /* padding: 150px 360px; */
+  /* padding: 0 0; */
+  display: flex;
+  gap: 110px;
 }
 
-.flat-discount-services-content { 
+.flat-discount-services-content {
   display: flex;
   flex-direction: column;
-} 
+  gap: 15px;
+  padding: 85px 0;
+  width: 540px;
+}
 
 .flat-discount-services-content-subtitle {
   color: var(--grey-green-dark);
@@ -397,6 +397,8 @@ line-height: 120%;
   font-style: normal;
   font-weight: 400;
   line-height: 175%;
+  color: var(--font-color-light-grey);
+  padding-top: 14px;
 }
 
 .flat-discount-services-content-contact {
@@ -408,7 +410,11 @@ line-height: 120%;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  align-items: center;
+  align-items: start;
+  border: 1px solid rgba(149, 191, 203, 1);
+  background-color: var(--white);
+  /* width: 300px; */
+  padding: 20px 40px 20px 40px;
 }
 
 .flat-discount-services-sale-icon {
@@ -418,7 +424,9 @@ line-height: 120%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 23px;
+  padding-top: 21px;
+  color: var(--white);
+  gap: 5px;
 }
 
 .flat-discount-services-content-flex {
@@ -436,4 +444,263 @@ line-height: 120%;
 
 .flat-discount-services-content-sale {
   display: flex;
+}
+
+.flat-discount-services-form-content {
+  padding: 65px 75px;
+  background-color: var(--white);
+  box-shadow: 0 20px 40px 0 rgba(42, 68, 75, 0.13);
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.input {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 370px;
+}
+
+.input-for_us {
+  height: 140px;
+  line-height: 140px;
+  /* text-align: start ; TODO:    nfwnfwpnfw */
+}
+
+.img-form {
+  width: 24px;
+  height: 24px;
+}
+
+.img-form-for_us {
+  padding-top: 21px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+  border: 1px solid rgba(149, 191, 203, 1);
+  background-color: var(--white);
+  width: 400px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.form-for_us {
+  width: 400px;
+  height: 140px;
+  display: flex;
+  align-items: start;
+}
+
+.services-section-content {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+.services-section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-section-title-sub {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+  color: var(--grey-green-dark);
+}
+
+.services-section-main_title {
+  width: 660px;
+  text-align: center;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+}
+
+.services-section-price {
+  width: 1200px;
+  display: flex;
+}
+
+.services-section-price-content {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.services-section-content-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--font-color-dark-grey);
+}
+
+.services-section-content-description {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%;
+  letter-spacing: 0.36px;
+  columns: var(--font-color-light-grey);
+  border-bottom: 1px solid rgba(155, 183, 191, 0.5);
+  padding-bottom: 20px;
+}
+
+.services-section-price-content-box {
+  width: 530px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.background-square {
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(132, 168, 178, 1);
+  margin-left: 555px;
+  margin-top: 710px;
+}
+
+.services-section-img {
+  position: relative;
+}
+
+.services-section-price-content2 {
+  padding-left: 40px;
+  position: relative;
+  bottom: 70px;
+  padding-top: 100px;
+}
+
+.services-section-price-content1 {
+  padding-left: 30px;
+}
+
+.services-section-img2 {
+  position: relative;
+  bottom: 80px;
+  padding-left: 30px;
+}
+
+.our-blog-subtitle {
+  color: var(--grey-green-dark);
+  text-align: center;
+  font-family: 'Manrope' , sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+}
+
+.our-blog-title-info {
+  color: var(--font-color-dark-grey);
+  text-align: center;
+  font-family: 'Playfair Display' , sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; 
+  letter-spacing: -0.45px;
+}
+
+.our-blog-content {
+  display: flex;
+  gap: 30px;
+}
+
+.our-blog-content-title {
+  color: var(--font-color-dark-grey);
+  font-family: 'Playfair Display' , sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+
+.our-blog-content-description-title {
+  display: flex;
+  gap: 9px;
+  justify-content: space-between;
+  
+}
+
+.descriprion-title {
+  color: var(--grey-green-dark);
+  font-family: 'Manrope' , sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.78px; 
+}
+
+.our-blog-content-description-box {
+  background-color: var(--light-blue-background);
+}
+
+.descriprion-title-line {
+  border: 2px solid rgba(39, 45, 50, 1);
+  width: 30px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.our-blog-content-description {
+  color: var(--font-color-light-grey);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; 
+  letter-spacing: 0.36px;
+}
+
+.our-blog-content-box_title {
+  padding: 0 25px;
+  padding-top: 15px;
+}
+
+.our-blog-content-box_title2 {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.our-blog-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
