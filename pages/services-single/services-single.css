@@ -1,0 +1,320 @@
+main > div {
+  padding: var(--desctop-padding-top-and-bottom)
+    var(--desctop-padding-left-and-right);
+}
+
+.story-section {
+  background-color: rgba(30, 44, 48, 1);
+}
+
+.story-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-title {
+  color: var(--white);
+  text-align: center;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.55px;
+  padding: 8px 0 30px 0;
+}
+
+.story-subtitle {
+  color: var(--white);
+}
+
+.includes-section {
+  padding: 0 0 0 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.includes-section-description {
+  color: var(--font-color-light-grey);
+  font-family: 'Manrope' , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.includes-methodology {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.includes-methodology_h3 {
+  color: var(--font-color-dark-grey);
+  font-family: 'Playfair Display' , sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.22px;
+}
+
+.includes-methodology-box {
+  display: flex;
+  gap: 20px;
+}
+
+.includes-methodology-box-title {
+  color: var(--font-color-dark-grey);
+  font-family: 'Manrope' , sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+.includes-methodology-box-info {
+  color: var(--font-color-light-grey);
+  font-family: 'Manrope' , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.includes-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 110px 120px 110px 0;
+}
+
+.booking-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_h2_cards {
+  padding-bottom: 45px;
+}
+
+.membership-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.membership-card {
+  background-color: rgba(30, 44, 48, 1);
+  display: flex;
+}
+
+.card-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_h3 {
+  color: var(--white);
+  font-family: 'Playfair Display' , sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.26px;
+}
+
+.card-string {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.card-info {
+  color: var(--white);
+  font-family: 'Manrope' , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 220%;
+}
+
+.card-content {
+  padding: 40px 100px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  width: 274px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-blue-background);
+}
+
+.form-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+}
+
+.form-content-title {
+  width: 622px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.title_h2_form {
+  padding-bottom: 20px;
+}
+
+.form-title-info {
+  color: var(--font-color-light-grey);
+  text-align: center;
+  font-family: 'Manrope' , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+  border: 1px solid rgba(149, 191, 203, 1);
+  background-color: var(--white);
+  width: 400px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.form-section_form-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-section_form {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  grid-template-rows: repeat(3, 80px);
+  grid-column-gap: 20px;
+  background-color: var(--white);
+  /* width: 1000px; */
+  padding: 50px 70px 35px 70px;
+}
+
+.btn-form {
+  width: 411.35px;
+  height: 65px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.input {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 370px;
+}
+
+.img-form {
+  width: 24px;
+  height: 24px;
+}
+
+.descriprion-form {
+  color: var(--grey-green-dark);
+  text-align: center;
+  text-align: center;
+  font-family: 'Manrope' , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  background-color: var(--white);
+  width: 984px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  /* padding: 150px  360px; */
+}
+
+.benefits-section-containers-flex {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  grid-template-rows: 200px 200px 200px;
+  grid-column-gap: 110px;
+  grid-row-gap: 40px;
+}
+
+.benefits-section-containers {
+  width: 330px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.benefits-section-h2 {
+  color: var(--font-color-dark-grey);
+  font-family: Playfair Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.benefits-section-icon {
+  width: 84px;
+  height: 84px;
+}
+
+.benefits-section-content-subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+  color: var(--grey-green-dark);
+  text-align: center;
+  padding-bottom: 9px;
+}
+
+.benefits-section-content-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+  text-align: center;
+}
+
+.benefits-section-text {
+  color: var(--font-color-light-grey);
+}

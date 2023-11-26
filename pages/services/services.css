@@ -280,3 +280,7 @@ main > div {
   display: flex;
   padding-top: 40px;
 }
+
+.flat-discount-contact-box {
+  text-align: start;
+}
