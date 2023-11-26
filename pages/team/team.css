@@ -1,0 +1,71 @@
+main > div {
+  padding: var(--desctop-padding-top-and-bottom)
+    var(--desctop-padding-left-and-right);
+}
+
+.story-section {
+  background-color: rgba(30, 44, 48, 1);
+}
+
+.story-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-title {
+  color: var(--white);
+  text-align: center;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.55px;
+  padding: 8px 0 30px 0;
+}
+
+.story-subtitle {
+  color: var(--white);
+}
+
+.members1_3 {
+  display: flex;
+  gap: 40px;
+  padding-top: 33px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  gap: 25px;
+}
+
+.member-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.title_h2_name {
+  font-size: 24px;
+}
+
+.member-description {
+  color: var(--font-color-light-grey);
+  text-align: center;
+  font-family: 'Manrope' , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
